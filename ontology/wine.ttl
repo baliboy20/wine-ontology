@@ -1,0 +1,14 @@
+@prefix :     <https://github.com/baliboy20/wine-ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# Ontology header only. Build the classes and properties in Protégé.
+
+<https://github.com/baliboy20/wine-ontology> a owl:Ontology ;
+    rdfs:label "Wine Ontology"@en ;
+    dcterms:creator "William Paulton" ;
+    dcterms:description "An OWL 2 ontology for wines, grape varieties, producers, regions, vintages and styles."@en ;
+    owl:versionInfo "0.1.0" .
